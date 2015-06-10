@@ -35,4 +35,4 @@ while True:
 	status = location+" "+current_time+" temp "+temp
 	print status
 	api.update_status(status=status)
-	time.sleep(30)
+	time.sleep(1000)
